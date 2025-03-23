@@ -98,12 +98,12 @@ This will start the calculator, allowing you to input arithmetic expressions.
 - **Invalid characters**:
   ```bash
   5 $ 3
-  syntax error: unexpected token '$'
+  syntax error:
   ```
 - **Mismatched parentheses**:
   ```bash
   (3 + 5 * 2
-  syntax error: missing ')'
+  syntax error:
   ```
 
 ---
@@ -123,5 +123,4 @@ This is expected when dividing by zero. The program correctly prevents crashes.
 ## **Author**
 - **Name:** [İrem Özdemir]
 - **Email:** [irem.ozdemir@etu.edu.tr]
-- **University:** [Your University]
 - **Course:** [BİL395]
